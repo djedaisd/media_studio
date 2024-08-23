@@ -528,11 +528,6 @@ transition:  transform .5s ease;
     font-style: italic;
 }
 
-.team-container {
-
-
-    display: none !important;
-  }
 
   .team-member {
     flex-basis: calc(33.333% - 20px);
