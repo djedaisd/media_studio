@@ -101,3 +101,110 @@
 
 
 }
+/* For small screens like mobile devices */
+@media (max-width: 768px) {
+    .project-zone {
+        margin: 20px 0;
+        width: 100%; /* Ensure it takes up full width on mobile */
+        max-width: 100%; /* Remove the max-width constraint */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .carousel-project {
+        width: 100%; /* Make the carousel take up full width */
+        height: auto; /* Allow the height to be adaptive */
+        margin-left: 0; /* Center align on small screens */
+    }
+
+    .carousel-image {
+        height: auto; /* Let the image height adapt to the content */
+        max-width: 100%; /* Ensure the image fills the container */
+    }
+
+    .carousel-controls {
+        padding: 0 20px; /* Add padding to ensure controls are visible on small screens */
+    }
+
+    .carousel-caption-project {
+        flex-direction: column; /* Stack the caption text and button vertically */
+        align-items: flex-start; /* Align items to the start */
+        bottom: 10px; /* Adjust position for smaller screens */
+        left: 10px; /* Adjust position for smaller screens */
+    }
+
+    .caption-text h3 {
+        font-size: 24px; /* Reduce font size for better readability */
+    }
+
+    .caption-text p {
+        font-size: 16px; /* Reduce font size for better readability */
+        width: 100%; /* Make sure the text takes up full width */
+    }
+
+    .project-book {
+        margin-right: 0;
+        margin-top: 10px; /* Add spacing on top for the button */
+        padding: 10px 20px; /* Adjust padding for smaller screens */
+        font-size: 16px; /* Reduce font size */
+    }
+
+    .podcast-text {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align the elements */
+        text-align: center; /* Center align the text */
+    }
+}
+
+/* For medium screens like tablets */
+@media (max-width: 1024px) {
+    .project-zone {
+        margin: 30px 0;
+        width: 100%; /* Ensure it takes up full width on tablets */
+        max-width: 100%; /* Remove the max-width constraint */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .carousel-project {
+        width: 100%; /* Make the carousel take up full width */
+        height: 500px; /* Set a fixed height suitable for tablets */
+        margin-left: 0; /* Center align on tablets */
+    }
+
+    .carousel-image {
+        height: auto; /* Let the image height adapt to the content */
+        max-width: 100%; /* Ensure the image fills the container */
+    }
+
+    .carousel-caption-project {
+        flex-direction: row; /* Keep the caption text and button in a row */
+        align-items: center; /* Align items to the center */
+        bottom: 15px; /* Adjust position for tablets */
+        left: 10px;
+        top: 300px;
+         /* Adjust position for tablets */
+    }
+
+    .caption-text h3 {
+        font-size: 32px; /* Adjust font size for tablets */
+    }
+
+    .caption-text p {
+        font-size: 18px; /* Adjust font size for tablets */
+        width: 90%; /* Ensure the text fits well on tablets */
+    }
+
+    .project-book {
+        margin-right: 10px; /* Add some margin to the right */
+        margin-top: 0; /* Keep the button in line with the text */
+        padding: 12px 30px; /* Adjust padding for tablets */
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .podcast-text {
+        flex-direction: row; /* Keep elements in a row on tablets */
+        align-items: center; /* Align items to the center */
+        text-align: left; /* Left align the text */
+    }
+}
