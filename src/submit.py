@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Настройка CORS
-CORS(app, resources={r"/submit": {"origins": "*"}})
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 # Ваши API ключи Mailjet
 API_KEY = '5cc9030e96967fbc7f8a82a5639da461'
