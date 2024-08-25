@@ -27,7 +27,7 @@ const Contact = () => {
         };
 
         try {
-            const response = await fetch('http://127.0.0.1:5000/submit', {
+            const response = await fetch('https://mediastudio-b79ace8e7b60.herokuapp.com/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
