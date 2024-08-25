@@ -26,13 +26,12 @@ def submit():
 
     subject = "New Project Submission"
     body = f"""
-
     Phone Number: {number}
     Name: {name}
     Project Description: {message}
     """
 
-    data = {
+    email_data = {
         'Messages': [
             {
                 "From": {
@@ -51,11 +50,12 @@ def submit():
         ]
     }
 
-    result = mailjet.send.create(data=data)
+    result = mailjet.send.create(data=email_data)
 
     if result.status_code == 200:
         return {"status": "success"}, 200
     else:
+        print(f"Error: {result.text}")  # Логирование ошибки
         return {"status": "failure", "message": result.text}, 500
 
 if __name__ == '__main__':
