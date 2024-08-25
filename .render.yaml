@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: media-studio
-    env: node
-    buildCommand: "npm run build"
-    startCommand: "npm start"
