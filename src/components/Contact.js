@@ -17,25 +17,32 @@ const Contact = () => {
         });
     };
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+
+        const data = {
+            name: document.querySelector("#name").value,
+            number: document.querySelector("#number").value,
+            message: document.querySelector("#message").value,
+        };
+
         try {
-            const response = await fetch('/api/submit', {
+            const response = await fetch('api/submit', {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
                 },
-                body: JSON.stringify(formData)
+                body: JSON.stringify(data),
             });
 
             if (response.ok) {
-                const result = await response.json();
-                alert(result.message);
+                alert('Form submitted successfully!');
             } else {
-                alert('Failed to submit the form');
+                const errorData = await response.json();
+                alert(`Failed to submit form: ${errorData.message}`);
             }
         } catch (error) {
-            console.error('Error submitting form:', error);
+            alert(`An error occurred: ${error.message}`);
         }
     };
 
