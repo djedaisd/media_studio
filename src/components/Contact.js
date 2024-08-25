@@ -27,7 +27,7 @@ const Contact = () => {
         };
 
         try {
-            const response = await fetch('api/submit', {
+            const response = await fetch('/api/sumbit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
