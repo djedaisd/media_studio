@@ -53,7 +53,7 @@ def handler(request):
             else:
                 return {
                     'statusCode': 500,
-                    'body': json.dumps({'message': f'Failed to send email: {result.text}'})
+                    'body': json.dumps({'message': f'Failed to send email: {str(result.text)}'})
                 }
 
         except Exception as e:
