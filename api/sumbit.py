@@ -57,13 +57,11 @@ def handler(request):
                 }
 
         except Exception as e:
+            error_message = f"An error occurred: {str(e)}"
+            print(error_message)  # Логируем ошибку на стороне сервера
             return {
-                'statusCode': 500,
-                'body': json.dumps({'message': f'An error occurred: {str(e)}'})
+            '   statusCode': 500,
+            '   body': json.dumps({'message': error_message})
             }
 
-    else:
-        return {
-            'statusCode': 405,
-            'body': json.dumps({'message': 'Method not allowed'})
-        }
+
