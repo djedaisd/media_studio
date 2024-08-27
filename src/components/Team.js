@@ -28,8 +28,8 @@ const teamMembers = [
   ,
   {
     imgSrc: bibo,
-    name: 'ERALY',
-    position: 'Marketer',
+    name: 'BIBOSYNOV YERALY',
+    position: 'MARKETING SPECIALIST',
   },
   {
     imgSrc: nurik,
@@ -40,8 +40,8 @@ const teamMembers = [
 
   {
     imgSrc: logosev,
-    name: 'ADIL',
-    position: 'Marketer',
+    name: 'SEIFULLIN ADILKHAN',
+    position: 'MARKETING SPECIALIST',
   },
   // Добавьте сюда новые объекты для новых сотрудников
 ];
