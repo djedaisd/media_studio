@@ -12,7 +12,7 @@ import logosev from '../assets/losavage.jpg';
 const teamMembers = [
   {
     imgSrc: team1,
-    name: 'YRYSBEK ADILBEKULY',
+    name: 'ADILBEKULY YRYSBEK',
     position: 'Videographer',
   },
   {
