@@ -2277,7 +2277,16 @@ footer{
         max-width: 100%;
         margin-left: 80px;
     }
-
+    .service-book{
+        text-decoration: none;
+        color: white;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        padding: 30px 60px;
+        font-size: 50px;
+        font-weight: 500;
+        margin-top: 80px;
+    }
     .carousel-project {
         width: 85%;
         height: 1200px;
@@ -2584,14 +2593,15 @@ footer{
     }
 
     .footer-row div {
-        font-size: 100px;
-        width: 1800px;
+        font-size: 130px;
+        width: 2500px;
         margin-top: 180px;
     }
 
     .footer-row ul li a, li {
-        font-size: 40px;
-        padding-top: 40px;
+        font-size: 50px;
+        padding-top: 60px;
+
     }
 
     .under-row {
@@ -2629,6 +2639,9 @@ footer{
         padding: 0;
 
     }
+    .answer{
+        width: 100%;
+    }
 
     .faq {
         max-width: 100%;
@@ -2636,20 +2649,20 @@ footer{
         padding-bottom: 20px;
         border-bottom: 3px solid #fff;
         height: 100%;
+        width: 100%;
     }
 
     .question_2 {
-        max-width: 800px;
+        max-width: 1900px;
     }
 
     .question h3 {
         font-size: 4.4rem;
     }
 
-
-    .faq-button{
+    .faq-button {
         width: 500px;
-        padding: 20px 0;
+        padding: 25px 50px;
         overflow: hidden;
         text-decoration: none;
         opacity: 0;
@@ -2657,31 +2670,31 @@ footer{
         color: white;
         border: 1px solid #fff;
         border-radius: 10px;
-
-        padding: 25px 50px;
         text-align: center;
         font-size: 50px;
         font-weight: 500;
-
-
-    }
-    /* .faq.active {
-        height: 1800px;
-        } */
-
-    .answer p {
-        font-size: 2rem;
-        line-height: 2;
-
-
-        margin: 0;
-
-
-
     }
     .faq.active .answer{
-        height: 600px;
+        max-width: 1800px;
+        width: 2000px;
+
+        }
+
+    .faq.active .answer p {
+        font-size: 2.5rem;
+        line-height: 2;
+        max-width: 2000px;
+
+        margin: 0;
     }
+
+    .question{
+        width: 100%;
+    }
+
+    /* .faq.active .answer {
+        max-height: 20rem;
+    } */
 
 
     .line {
