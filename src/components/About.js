@@ -13,13 +13,13 @@ const About = () => {
         {
             image: podcastImage1,
             title: "Подкаст зона",
-
+            description:"Подкаст Зона — для презентации ваших проектов и идей",
             link: "https://www.instagram.com/mediastudio.kz?igsh=c2VmNGgwOTIzeWx2"
         },
         {
             image: podcastImage2,
             title: "Подкаст зона",
-
+            description:"Подкаст Зона — для презентации ваших проектов и идей",
             link: "https://www.instagram.com/mediastudio.kz?igsh=c2VmNGgwOTIzeWx2"
         }
     ];
@@ -86,12 +86,34 @@ const About = () => {
         <p className="number">
           {inView && <CountUp start={0} end={27} duration={3} />}
         </p>
+
         <p className="stat_text">ПРОЕКТОВ</p>
       </div>
+      <div className="line1"></div>
     </div>
 
         </section>
-        <section  id='locations'>
+        <section className="project-zone">
+            <section className="projects" id='locations'>
+
+
+            </section>
+            <div className="carousel-project">
+                <img src={slides[currentSlide].image} alt={slides[currentSlide].title} className="carousel-image" />
+                <div className="carousel-controls">
+                    <button className="prev" onClick={prevSlide}>&#10094;</button>
+                    <button className="next" onClick={nextSlide}>&#10095;</button>
+                </div>
+                <div className="carousel-caption-project">
+                    <div className="caption-text">
+                        <h3>{slides[currentSlide].title}</h3>
+                        <p>{slides[currentSlide].description}</p>
+                    </div>
+                    <a href={slides[currentSlide].link} className="project-book">Смотреть</a>
+                </div>
+            </div>
+        </section>
+        {/* <section  id='locations'>
         <div className="care-carousel-container">
       <img src={slides[currentSlide].image} alt={slides[currentSlide].title} className="care-carousel-image" />
       <div className="care-carousel-navigation">
@@ -103,7 +125,7 @@ const About = () => {
         <a href={slides[currentSlide].link} className="care-carousel-button">Забронировать</a>
       </div>
     </div>
-        </section>
+        </section> */}
         </div>
     );
 };

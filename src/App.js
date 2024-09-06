@@ -12,7 +12,7 @@ import {Router, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
 function App() {
   return (
-    <div>
+    <div className='resp'>
 
       <section id="home">
         <Header />

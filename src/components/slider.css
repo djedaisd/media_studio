@@ -208,3 +208,124 @@
         text-align: left; /* Left align the text */
     }
 }
+@media (min-width: 2500px) {
+    *{
+        font-family: "Montserrat", sans-serif;
+    }
+    .project-zone {
+        margin: 80px 0;
+        margin-top: 200px;
+        max-width: 100%;
+        margin-left: 50px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .carousel-project {
+        width: 80%;
+        height: 900px;
+        margin-left: 100px;
+    }
+
+    .carousel-image {
+        height: 900px;
+    }
+
+    .carousel-controls {
+        top: 45%;
+        width: 100%;
+    }
+
+    .carousel-controls .prev,
+    .carousel-controls .next {
+        font-size: 3rem;
+        padding: 20px;
+    }
+
+    .carousel-caption-project {
+        max-width: 100%;
+        bottom: 40px;
+        left: 40px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .caption-text p {
+        font-size: 26px;
+        width: 70%;
+    }
+
+    .caption-text h3 {
+        font-size: 60px;
+    }
+
+    .project-book {
+        margin-left: 500px;
+        padding: 20px 60px;
+        font-size: 26px;
+    }
+
+    .podcast-text {
+        justify-content: center;
+        text-align: center;
+        font-size: 28px;
+    }
+}
+@media (min-width: 3840px) {
+    *{
+        font-family: "Montserrat", sans-serif;
+    }
+    .project-zone {
+        margin: 120px 0;
+        margin-top: 300px;
+        max-width: 100%;
+        margin-left: 80px;
+    }
+
+    .carousel-project {
+        width: 80%;
+        height: 1500px;
+        margin-left: 150px;
+    }
+
+    .carousel-image {
+        height: 1200px;
+    }
+
+    .carousel-controls {
+        top: 45%;
+        width: 100%;
+    }
+
+    .carousel-controls .prev,
+    .carousel-controls .next {
+        font-size: 4rem;
+        padding: 30px;
+    }
+
+    .carousel-caption-project {
+        max-width: 100%;
+        bottom: 60px;
+        left: 60px;
+    }
+
+    .caption-text p {
+        font-size: 50px;
+        width: 80%;
+    }
+
+    .caption-text h3 {
+        font-size: 120px;
+    }
+
+    .project-book {
+        margin-left: 800px;
+        padding: 30px 80px;
+        font-size: 50px;
+        margin-top: 300px;
+    }
+
+    .podcast-text {
+        justify-content: center;
+        text-align: center;
+        font-size: 36px;
+    }
+}

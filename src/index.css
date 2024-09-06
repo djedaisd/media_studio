@@ -1,9 +1,13 @@
+
+
+
 .team-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 70px;
     gap: 20px;
+
 
 }
 .header{
@@ -144,7 +148,7 @@ nav ul li a.active {
 .studio {
     text-align: right;
 }
-
+/**/
 .logo{
     width: 81px;
     height: 65px;
@@ -194,7 +198,7 @@ font-size: 1.8rem;
 
 .answer {
     max-height: 0;
-    overflow: hidden;
+
     transition: max-height 1.4s ease;
 }
 
@@ -295,8 +299,9 @@ transition:  transform .5s ease;
 .podcast-zone {
     margin: 50px 0;
     position: relative;
-}
 
+}
+/**/
 .carousel {
     position: relative;
     text-align: center;
@@ -386,6 +391,7 @@ transition:  transform .5s ease;
     margin-left: 80px;
     justify-content: space-between;
     margin-right: 80px;
+
 }
 .service-header h2{
     font-size: 70px;
@@ -459,6 +465,7 @@ transition:  transform .5s ease;
     align-items: center;
 
 }
+/**/
 .carousel-caption-project h3{
     margin-left: 130px;
 }
@@ -610,7 +617,7 @@ form input{
     padding: 0;
 }
 
-
+/**/
 .info-container a{
     text-decoration: none;
     color: white;
@@ -690,6 +697,8 @@ button {
     justify-content: space-between;
     margin-left: 80px;
     margin-right: 80px;
+
+
 }
 .footer-row div{
     font-size: 50px;
@@ -731,6 +740,7 @@ font-size: 15px;
 }
 footer{
     height: 500px;
+
 }
 .reserve div a{
     text-decoration: none;
@@ -753,17 +763,19 @@ footer{
 
  .care-carousel-container {
     position: relative;
-    width: 100%;
-    max-width: 1200px;
+    max-width: 80%;
+
     margin: 0 auto;
     overflow: hidden;
     margin-top: 80px;
-  }
 
+  }
+/**/
   .care-carousel-image {
     width: 100%;
     height: auto;
     display: block;
+
   }
 
   .care-carousel-navigation {
@@ -869,6 +881,7 @@ footer{
         margin: 0 auto; /* Center the line */
     }
 }
+
 
 /* Styles for medium screens like tablets */
 @media (max-width: 1024px) {
@@ -1015,6 +1028,7 @@ footer{
     }
 }
 
+
 /* For medium screens like tablets */
 @media (max-width: 1024px) {
     .podcast-zone {
@@ -1092,6 +1106,8 @@ footer{
         font-size: 16px; /* Reduce font size */
     }
 }
+
+
 
 /* For medium screens like tablets */
 @media (max-width: 1024px) {
@@ -1185,6 +1201,7 @@ footer{
         text-align: center; /* Center align the button text */
     }
 }
+
 
 /* For medium screens like tablets */
 @media (max-width: 1024px) {
@@ -1385,6 +1402,7 @@ footer{
     }
 }
 
+
 /* For medium screens like tablets */
 @media (max-width: 1024px) {
     .footer-row {
@@ -1442,6 +1460,7 @@ footer{
     }
 }
 
+
 /* For medium screens like tablets */
 @media (max-width: 1024px) {
     .media, .studio {
@@ -1458,6 +1477,7 @@ footer{
         margin-left: 0; /* Remove left margin */
     }
 }
+
 
 /* For medium screens like tablets */
 @media (max-width: 1024px) {
@@ -1559,6 +1579,7 @@ footer{
     }
 }
 
+
 /* For medium screens like tablets */
 @media (max-width: 1024px) {
     .header_text4 {
@@ -1596,6 +1617,7 @@ footer{
     }
 }
 
+
 /* For medium screens like tablets */
 @media (max-width: 1024px) {
     .care-carousel-container {
@@ -1631,6 +1653,7 @@ footer{
     }
 }
 
+
 /* For medium screens like tablets */
 @media (max-width: 1024px) {
     .header_text5 {
@@ -1650,6 +1673,7 @@ footer{
     }
 }
 
+
 /* For medium screens like tablets */
 @media (max-width: 1024px) {
     .stat {
@@ -1666,6 +1690,7 @@ footer{
         max-height: 300px; /* Set a maximum height to prevent the image from becoming too large */
     }
 }
+
 
 /* For medium screens like tablets */
 @media (max-width: 1024px) {
@@ -1723,6 +1748,7 @@ footer{
         text-align: center; /* Center align the button */
     }
 }
+
 
 /* For medium screens like tablets */
 @media (max-width: 1024px) {
@@ -1788,3 +1814,879 @@ footer{
         padding: 0 50px; /* Add some padding to ensure controls are easily accessible */
     }
 }
+@media (min-width: 2500px) {
+    .team-container {
+        margin-top: 100px;
+        gap: 40px;
+    }
+    .header-content {
+
+        overflow-x: hidden;
+        margin-left: 150px;
+
+    }
+    .text{
+        font-size: 43px;
+        margin-top: 30px;
+    margin-bottom: 30px;
+
+    }
+    .header {
+        display: flex;
+    }
+
+    body {
+        font-size: 18px;
+        padding: 0 80px;
+    }
+
+    nav ul {
+        margin-left: 120px;
+        margin-top: 150px;
+    }
+
+    nav ul li {
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    nav ul li a {
+        width: 100px;
+        font-size: 35px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: left;
+        font-weight: bold;
+        text-decoration: none;
+        display: block;
+    }
+
+    .header_text, .header_text1 {
+        font-size: 25px;
+        width: 500px;
+        margin-left: 100px;
+    }
+
+    .header_text2, .header_text3 {
+        margin-top: 100px;
+        font-size: 20px;
+    }
+
+    .header_text4 {
+        margin-top: 60px;
+    }
+
+    .header_text5 {
+        margin-top: 30px;
+    }
+
+    .media-studio {
+        font-size: 200px;
+        width: 1000px;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+
+    .background-image {
+        margin-left: 35%;
+        margin-top: 15%;
+        width: 27%;
+        height: 25%;
+        position: absolute;
+        background-image: url('./assets/studio.jpg');
+        z-index: -1;
+
+    }
+
+    .media, .studio {
+        line-height: 1,2;
+    }
+}
+@media (min-width: 2560px) {
+    .logo {
+        width: 120px;
+        height: 90px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .reserve {
+        margin-left: 800px;
+        margin-top: 300px;
+        font-size: 28px;
+    }
+
+    .faq_container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
+    .faq {
+        max-width: 100%;
+        margin-top: 3rem;
+        padding-bottom: 20px;
+        border-bottom: 3px solid #fff;
+    }
+
+    .question_2 {
+        max-width: 800px;
+    }
+
+    .question h3 {
+        font-size: 2.4rem;
+    }
+
+    .faq-button{
+        width: 300px;
+        padding: 20px 0;
+        overflow: hidden;
+        text-decoration: none;
+        opacity: 0;
+        transition: opacity 1.4s ease;
+        color: white;
+        border: 1px solid #fff;
+        border-radius: 10px;
+
+        padding: 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .faq.active .answer{
+        max-height: 650px;
+        }
+    .answer p {
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+
+    .line {
+        width: 500px;
+
+    }
+
+    .about {
+        margin-top: 150px;
+        margin-left: 120px;
+        width: 100%;
+    }
+
+    .stat {
+        width: 100%;
+        height: 200px;
+        margin-left: 200px;
+    }
+
+    .stats {
+        width: 57%;
+        margin-left: 150px;
+    }
+
+    .about h2 {
+        font-size: 100px;
+    }
+
+    .number {
+        font-size: 100px;
+        margin-top: 80px;
+    }
+
+    .stat_text {
+        font-size: 28px;
+        margin-top: 120px;
+    }
+
+    .line1 {
+        border-top: 2px solid white;
+        margin-left: 200px;
+    }
+
+    .podcast-zone {
+        margin: 80px 0;
+    }
+}
+@media (min-width: 2560px) {
+    .carousel img {
+        padding: 0 150px;
+    }
+
+    .carousel-controls {
+        top: 45%;
+
+    }
+
+    .carousel-controls .prev {
+        margin-left: 150px;
+    }
+
+    .carousel-controls .next {
+        margin-right: 10px;
+    }
+
+    .carousel-caption h3,
+    .carousel-caption-project h3 {
+        margin-left: 300px;
+        font-size: 60px;
+    }
+
+    .project-book,
+    .podcast-book
+     {
+        font-size: 24px;
+        padding: 20px 40px;
+    }
+    .service-book{
+        font-size: 40px;
+        padding: 30px 60px;
+    }
+    .podcast-book {
+        margin-left: 600px;
+    }
+
+    .services {
+        margin-top: 120px;
+    }
+
+    .service-header {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .service-header h2,
+    .projects h2 {
+        font-size: 150px;
+
+    }
+
+    .carousel-project img {
+        width: 100%;
+        padding: 0 150px;
+    }
+    .carousel-controls{
+        width: 100%;
+    }
+    .carousel-caption-project {
+        max-width: 80%;
+        bottom: 40px;
+        left: 40px;
+    }
+}
+@media (min-width: 2560px) {
+    .carousel-caption-project h3 {
+        margin-left: 200px;
+        font-size: 55px;
+    }
+
+    .caption-text {
+        text-align: left;
+    }
+
+    .podcast-text {
+        justify-content: space-between;
+    }
+
+    .podcast {
+        bottom: 20px;
+        left: 40px;
+    }
+
+    .podcast-text h3 {
+        margin-left: 300px;
+        font-size: 60px;
+    }
+
+    .caption-text p {
+        font-size: 26px;
+        margin-left: 200px;
+    }
+
+    .caption-text h3 {
+        font-size: 60px;
+    }
+
+    .project-book {
+        margin-left: 300px;
+        padding: 20px 60px;
+        font-size: 28px;
+        margin-top: 150px;
+    }
+
+    .podcast-book {
+        margin-left: 600px;
+        font-size: 24px;
+    }
+
+    .team-book {
+        font-size: 60px;
+    }
+    .header_text4{
+        font-size: 23px;
+        margin-left: 130px;
+        width: 500px;
+        margin-top: 20px;
+    }
+    .header_text5{
+        font-size: 23px;
+        margin-left: 130px;
+    }
+    .team-member {
+        flex-basis: calc(33% - 30px);
+        width: 500px;
+        margin-bottom: 40px;
+    }
+
+    .circular_image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .team-member h1 {
+        font-size: 40px;
+        margin: 30px 0 10px;
+    }
+
+    .team-member p {
+        font-size: 33px;
+    }
+
+    .contact h2 {
+        font-size: 80px;
+        margin-left: 120px;
+    }
+
+    .contact-row {
+        justify-content: space-around;
+    }
+
+    .contact-section {
+        padding: 80px 0;
+    }
+
+    .container {
+        max-width:100%;
+        margin-left: 120px;
+        padding: 50px;
+    }
+
+    .form-container {
+        flex: 2;
+    }
+
+    .info-container {
+        flex: 1;
+        padding-left: 50px;
+        margin-left: 80px;
+    }
+
+    .info-container .contact-info a {
+        margin: 0;
+        padding: 0;
+    }
+}
+@media (min-width: 2560px) {
+    .info-container a {
+        font-size: 40px;
+    }
+
+    .form {
+        flex-direction: row;
+    }
+
+    .form-group label {
+        margin-top: 70px;
+        font-size: 30px;
+    }
+
+    input, textarea {
+        width: 1400px;
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 36px;
+        padding: 20px 40px;
+        margin-top: 60px;
+    }
+
+    .contact-info h2 {
+        font-size: 40px;
+    }
+
+    .contact-info {
+        margin-top: 120px;
+        font-size: 35px;
+        margin-right: 70px;
+    }
+
+    .footer-row {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .footer-row div {
+        font-size: 80px;
+        width: 1400px;
+        margin-top: 140px;
+    }
+
+    .footer-row ul li a, li {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .under-row {
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-top: 200px;
+    }
+
+    .idea,
+    .law {
+        font-size: 20px;
+    }
+
+    .law {
+        margin-right: 300px;
+    }
+
+    .icons {
+        font-size: 40px;
+    }
+
+    footer {
+        height: 700px;
+    }
+
+    .contact-us {
+        font-size: 85px;
+        margin-left: 120px;
+        margin-top: 240px;
+    }
+
+
+}
+@media (min-width: 3840px) {
+    body{
+        font-family: "Montserrat", sans-serif;
+    }
+    .project-zone {
+        margin: 120px 0;
+        margin-top: 300px;
+        max-width: 100%;
+        margin-left: 80px;
+    }
+
+    .carousel-project {
+        width: 85%;
+        height: 1200px;
+        margin-left: 150px;
+    }
+
+    .carousel-image {
+        height: 1200px;
+    }
+
+    .carousel-controls {
+        top: 40%;
+        width: 100%;
+    }
+
+    .carousel-controls .prev,
+    .carousel-controls .next {
+        font-size: 4rem;
+        padding: 30px;
+    }
+
+    .carousel-caption-project {
+        max-width: 100%;
+        bottom: 60px;
+        left: 60px;
+    }
+
+    .caption-text p {
+        font-size: 36px;
+        width: 80%;
+    }
+
+    .caption-text h3 {
+        font-size: 80px;
+    }
+
+    .project-book {
+        margin-left: 600px;
+        padding: 30px 80px;
+        font-size: 36px;
+    }
+
+    .podcast-text {
+        justify-content: center;
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 150px;
+        margin-left: 150px;
+        margin-top: 120px;
+    }
+
+    .header-content {
+        overflow-x: hidden;
+        margin-left: 200px;
+    }
+    .line{
+        width: 700px;
+        margin-left: 200px;
+
+    }
+
+    .about {
+        margin-top: 150px;
+        margin-left: 120px;
+        width: 100%;
+    }
+
+    .stat {
+        width: 100%;
+        height: 200px;
+        margin-left: 200px;
+    }
+
+    .stats {
+        width: 57%;
+        margin-left: 150px;
+    }
+    .number {
+        font-size: 150px;
+        margin-top: 80px;
+    }
+    .line1 {
+        border-top: 2px solid white;
+        margin-left: 200px;
+        margin-top: 80px;
+    }
+    .stat_text {
+        font-size: 50px;
+        margin-top: 120px;
+    }
+    .about h2 {
+        font-size: 150px;
+    }
+    .reserve{
+        margin-top: 400px;
+        margin-left: 900px;
+    }
+    .text {
+        font-size: 55px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 200px;
+    }
+
+    .header {
+        display: flex;
+    }
+
+    body {
+        font-size: 24px;
+        padding: 0 100px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    nav ul {
+        margin-left: 160px;
+        margin-top: 200px;
+    }
+
+    nav ul li {
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    nav ul li a {
+        width: 170px;
+        font-size: 55px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: left;
+        font-weight: bold;
+        text-decoration: none;
+        display: block;
+    }
+
+    .header_text {
+        font-size: 30px;
+        width: 800px;
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+    .header_text1{
+        font-size: 30px;
+        margin-left: 150px;
+        margin-top: 50px;
+        width: 800px;
+    }
+
+    .header_text2 {
+        margin-top: 160px;
+        font-size: 30px;
+        width: 800px;
+    }
+    .header_text3{
+        margin-top: 50px;
+        font-size: 30px;
+        width: 800px;
+    }
+    .header_text4 {
+        margin-top: 80px;
+        font-size: 35px;
+        width: 900px;
+        margin-left: 170px;
+    }
+
+    .header_text5 {
+        margin-top: 50px;
+        font-size: 35px;
+        margin-left: 170px;
+        width: 900px;
+    }
+
+    .media-studio {
+        font-size: 300px;
+        width: 1500px;
+        margin-top: 150px;
+        margin-left: 60px;
+    }
+
+    .background-image {
+        margin-left: 35%;
+        margin-top: 14%;
+        width: 26%;
+        height: 35%;
+        position: absolute;
+        background-image: url('./assets/studio.jpg');
+        z-index: -1;
+    }
+
+    .media, .studio {
+        line-height: 1;
+    }
+
+
+    .services {
+        margin-top: 180px;
+    }
+
+    .service-header {
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+
+    .service-header h2,
+    .projects h2 {
+        font-size: 180px;
+
+    }
+    .service-header h2{
+        margin-top: 300px;
+    }
+    .team-book {
+        font-size: 100px;
+        margin-top: 100px;
+    }
+
+    .team-member {
+        flex-basis: calc(33% - 40px);
+        width: 600px;
+        margin-bottom: 60px;
+    }
+
+    .circular_image {
+        width: 500px;
+        height: 500px;
+    }
+
+    .team-member h1 {
+        font-size: 55px;
+        margin: 40px 0 15px;
+    }
+
+    .team-member p {
+        font-size: 45px;
+    }
+
+    .contact h2 {
+        font-size: 100px;
+        margin-left: 160px;
+    }
+
+    .contact-row {
+        justify-content: space-around;
+    }
+
+    .contact-section {
+        padding: 100px 0;
+    }
+
+    .container {
+        max-width: 100%;
+        margin-left: 160px;
+        padding: 70px;
+    }
+
+    .form-container {
+        flex: 2;
+    }
+
+    .info-container {
+        flex: 1;
+        padding-left: 70px;
+        margin-left: 100px;
+    }
+
+    .info-container .contact-info a {
+        margin: 0;
+        padding: 0;
+        font-size: 50px;
+    }
+
+    .form-group label {
+        margin-top: 90px;
+        font-size: 40px;
+    }
+
+    input, textarea {
+        width: 1800px;
+        font-size: 40px;
+    }
+
+    button {
+        font-size: 48px;
+        padding: 30px 60px;
+        margin-top: 80px;
+    }
+
+    .contact-info h2 {
+        font-size: 50px;
+    }
+
+    .contact-info {
+        margin-top: 160px;
+        font-size: 50px;
+    }
+
+    .footer-row {
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+
+    .footer-row div {
+        font-size: 100px;
+        width: 1800px;
+        margin-top: 180px;
+    }
+
+    .footer-row ul li a, li {
+        font-size: 40px;
+        padding-top: 40px;
+    }
+
+    .under-row {
+        margin-left: 160px;
+        margin-right: 160px;
+        margin-top: 250px;
+    }
+
+    .idea,
+    .law {
+        font-size: 30px;
+    }
+
+    .law {
+        margin-right: 400px;
+    }
+
+    .icons {
+        font-size: 50px;
+    }
+
+    footer {
+        height: 900px;
+    }
+
+    .contact-us {
+        font-size: 110px;
+        margin-left: 160px;
+        margin-top: 320px;
+    }
+    .faq_container {
+
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
+    .faq {
+        max-width: 100%;
+        margin-top: 3rem;
+        padding-bottom: 20px;
+        border-bottom: 3px solid #fff;
+        height: 100%;
+    }
+
+    .question_2 {
+        max-width: 800px;
+    }
+
+    .question h3 {
+        font-size: 4.4rem;
+    }
+
+
+    .faq-button{
+        width: 500px;
+        padding: 20px 0;
+        overflow: hidden;
+        text-decoration: none;
+        opacity: 0;
+        transition: opacity 1.4s ease;
+        color: white;
+        border: 1px solid #fff;
+        border-radius: 10px;
+
+        padding: 25px 50px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 500;
+
+
+    }
+    /* .faq.active {
+        height: 1800px;
+        } */
+
+    .answer p {
+        font-size: 2rem;
+        line-height: 2;
+
+
+        margin: 0;
+
+
+
+    }
+    .faq.active .answer{
+        height: 600px;
+    }
+
+
+    .line {
+        width: 500px;
+
+    }
+}
+
