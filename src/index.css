@@ -2276,6 +2276,7 @@ footer{
         margin-top: 300px;
         max-width: 100%;
         margin-left: 80px;
+        display: none;
     }
     .service-book{
         text-decoration: none;
@@ -2347,25 +2348,26 @@ footer{
         margin-left: 200px;
     }
     .line{
-        width: 700px;
-        margin-left: 200px;
+        width: 600px;
+        margin-left: 300px;
+
 
     }
 
     .about {
         margin-top: 150px;
-        margin-left: 120px;
+        margin-left: 150px;
         width: 100%;
     }
 
     .stat {
         width: 100%;
         height: 200px;
-        margin-left: 200px;
+        margin-left: 350px;
     }
 
     .stats {
-        width: 57%;
+        width: 55%;
         margin-left: 150px;
     }
     .number {
@@ -2374,7 +2376,7 @@ footer{
     }
     .line1 {
         border-top: 2px solid white;
-        margin-left: 200px;
+        margin-left: 350px;
         margin-top: 80px;
     }
     .stat_text {
@@ -2385,14 +2387,16 @@ footer{
         font-size: 150px;
     }
     .reserve{
-        margin-top: 400px;
-        margin-left: 900px;
+        margin-top: 430px;
+        margin-left: 1150px;
+
     }
+
     .text {
         font-size: 55px;
         margin-top: 30px;
         margin-bottom: 30px;
-        margin-left: 200px;
+        margin-left: 290px;
     }
 
     .header {
@@ -2427,13 +2431,13 @@ footer{
     }
 
     .header_text {
-        font-size: 30px;
+        font-size: 35px;
         width: 800px;
         margin-left: 150px;
         margin-top: 100px;
     }
     .header_text1{
-        font-size: 30px;
+        font-size: 35px;
         margin-left: 150px;
         margin-top: 50px;
         width: 800px;
@@ -2441,12 +2445,12 @@ footer{
 
     .header_text2 {
         margin-top: 160px;
-        font-size: 30px;
+        font-size: 35px;
         width: 800px;
     }
     .header_text3{
         margin-top: 50px;
-        font-size: 30px;
+        font-size: 35px;
         width: 800px;
     }
     .header_text4 {
@@ -2464,17 +2468,17 @@ footer{
     }
 
     .media-studio {
-        font-size: 300px;
-        width: 1500px;
+        font-size: 350px;
+        width: 1850px;
         margin-top: 150px;
         margin-left: 60px;
     }
 
     .background-image {
-        margin-left: 35%;
-        margin-top: 14%;
-        width: 26%;
-        height: 35%;
+        margin-left: 38%;
+        margin-top: 16%;
+        width: 30%;
+        height: 37%;
         position: absolute;
         background-image: url('./assets/studio.jpg');
         z-index: -1;
@@ -2585,22 +2589,27 @@ footer{
     .contact-info {
         margin-top: 160px;
         font-size: 50px;
+
+        margin-right: 100px    ;
     }
 
     .footer-row {
         margin-left: 160px;
         margin-right: 160px;
+
     }
 
     .footer-row div {
         font-size: 130px;
         width: 2500px;
         margin-top: 180px;
+
     }
 
     .footer-row ul li a, li {
         font-size: 50px;
         padding-top: 60px;
+        text-align: right;
 
     }
 
@@ -2697,9 +2706,6 @@ footer{
     } */
 
 
-    .line {
-        width: 500px;
 
-    }
 }
 
