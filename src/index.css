@@ -365,7 +365,7 @@ transition:  transform .5s ease;
     padding: 7px 14px;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 20px;
+
 }
 .podcast-book{
     margin-left: 500px;
@@ -2276,7 +2276,7 @@ footer{
         margin-top: 300px;
         max-width: 100%;
         margin-left: 80px;
-        display: none;
+
     }
     .service-book{
         text-decoration: none;
