@@ -156,7 +156,7 @@ nav ul li a.active {
     margin-top: 75px;
 }
 .reserve{
-    margin-left: 540px;
+    margin-left: 600px;
     margin-top: 215px;
     font-size: 20px;
     background-color: none;
@@ -269,11 +269,11 @@ transition:  transform .5s ease;
 .stat{
     display: flex;
     justify-content: space-between;
-    width: 800px;
+    width: 850px;
     height: 150px;
 }
 .stats{
-    width: 800px;
+    width: 850px;
     margin-left: 90px;
 
 }
@@ -289,6 +289,7 @@ transition:  transform .5s ease;
     font-size: 20px;
     font-weight: 600;
     margin-top: 100px;
+
 }
 .line1{
     border-top: 1.5px solid white;
@@ -365,6 +366,7 @@ transition:  transform .5s ease;
     padding: 7px 14px;
     font-size: 18px;
     font-weight: 500;
+    margin-right: 100px;
 
 }
 .podcast-book{
@@ -687,6 +689,7 @@ button {
 .contact-info{
     text-align: right;
     margin-top: 90px;
+    margin-left: 570px;
 }
 .highlight{
     color: red;
@@ -713,6 +716,7 @@ button {
     padding-top: 20px;
     color: #fff;
     font-weight: 600;
+    text-align: right;
 
 }
 .under-row{
