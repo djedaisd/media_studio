@@ -831,28 +831,51 @@ footer{
         flex-direction: column;
         align-items: center;
         padding: 20px 20px;
+
+    }
+    .header nav{
+        text-align: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .media{
+        font-size: 90px;
+    }
+    .studio{
+        font-size: 70px;
     }
 
     nav ul {
-        flex-direction: column;
+        display: flex;
+        flex: 3;
         margin-left: 0;
         align-items: center;
+        text-align: center;
     }
 
     nav ul li {
         width: 100%; /* Make each menu item take the full width of the container */
         text-align: center;
+
+
     }
 
     .logo {
         margin-left: 0;
-        margin-bottom: 20px; /* Add space below the logo */
+        margin-bottom: 20px;
+        padding-right: 100px;/* Add space below the logo */
     }
-
-    .header_text, .header_text1 {
+    .about div{
+        text-align: center;
+        margin-right: 30px;
+    }
+    .header_text, .header_text1{
+        margin-left: 300px;
+    }
+    .header_text, .header_text1,.header_text2,.header_text3,.header_text4 {
         text-align: center;
         width: 100%;
-        margin-left: 0;
+
         margin-top: 20px;
     }
 
@@ -864,7 +887,7 @@ footer{
     }
 
     .media-studio {
-        font-size: 80px; /* Reduce the font size for smaller screens */
+        font-size: 10px; /* Reduce the font size for smaller screens */
         width: 100%;
         margin-top: 20px;
     }
@@ -872,17 +895,18 @@ footer{
     .reserve {
         margin-left: 0;
         text-align: center;
-        width: 100%;
+        width: 20%;
         margin-top: 40px;
     }
 
     .reserve .text {
-        font-size: 18px; /* Adjust font size for better readability on small screens */
+        font-size: 15px; /* Adjust font size for better readability on small screens */
     }
 
     .line {
-        width: 80%; /* Adjust the line width */
-        margin: 0 auto; /* Center the line */
+        max-width:200px ; /* Adjust the line width */
+
+
     }
 }
 
@@ -928,8 +952,8 @@ footer{
 @media (max-width: 768px) {
     .about {
         flex-direction: column;
-        margin-left: 20px;
-        margin-top: 50px;
+        margin-left: 10px;
+        margin-top: 20px;
     }
 
     .stat {
@@ -937,6 +961,7 @@ footer{
         align-items: flex-start;
         width: 100%;
         height: auto;
+
     }
 
     .stats {
@@ -955,8 +980,8 @@ footer{
     }
 
     .stat_text {
-        font-size: 18px; /* Adjusted font size for better readability */
-        margin-top: 20px;
+        font-size: 12px; /* Adjusted font size for better readability */
+        margin-top: 10px;
     }
 
     .line1 {
@@ -988,13 +1013,15 @@ footer{
     }
 
     .number {
-        font-size: 60px; /* Adjusted font size */
+        font-size: 40px; /* Adjusted font size */
         margin-top: 40px;
+        margin-right: 30px;
     }
 
     .stat_text {
-        font-size: 18px; /* Adjusted font size */
-        margin-top: 60px;
+        font-size: 13px; /* Adjusted font size */
+        margin-top: 20px;
+        margin-right: 30px;
     }
 
     .line1 {
@@ -1053,8 +1080,10 @@ footer{
 
     .carousel-caption h3,
     .carousel-caption-project h3 {
-        margin-left: 100px; /* Reduce left margin */
-        font-size: 32px; /* Adjust font size for tablet screens */
+        margin-left: 400px; /* Reduce left margin */
+        font-size: 32px;
+        margin-top: 60px;
+/* Adjust font size for tablet screens */
     }
 
     .project-book {
@@ -1193,7 +1222,8 @@ footer{
 
     .contact-info {
         text-align: center; /* Center align the contact info */
-        margin-top: 50px; /* Adjust margin for smaller screens */
+        margin-top: 50px;
+        display: none; /* Adjust margin for smaller screens */
     }
 
     .contact-info h2 {
